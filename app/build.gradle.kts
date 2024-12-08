@@ -50,7 +50,8 @@ android {
 }
 
 dependencies {
-    implementation(project(":exampleLib"))
+    // working lib https://central.sonatype.com/artifact/io.github.dawid-witkowski/libtestmaven-runtime
+    implementation("io.github.dawid-witkowski:libtestmaven-runtime:0.0.1")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
