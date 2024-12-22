@@ -4,6 +4,6 @@ import android.util.Log
 
 class ExampleClass {
     fun execute() {
-        Log.i("examplelib", "execute: WORKS!")
+        Log.i("examplelib", "execute: WORKS3!")
     }
 }
